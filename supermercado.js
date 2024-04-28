@@ -9,13 +9,6 @@ document.querySelector('input[type=submit]')
         nome: nomeProduto.value,
         valor: precoProduto.value,
     });
-
-    /*
-            <div class="lista-produtos-single">
-                <h3>Energético</h3>
-                <h3 class="preco-produto"><span>R$15,00</span></h3>
-            </div>
-    */
     
     let listaProdutos = document.querySelector('.lista-produtos');
     let soma = 0;
